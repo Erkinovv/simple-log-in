@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>You can get acquainted</h1>
+        
+        <button class="button" id="logout">LOG OUT</button>
+        <ul class="list" id="list"></ul>
+
+    </div>
+    <template id="temp">
+        <li class="list-item">
+            <div class="block">
+            <h3 class="user-name" id="user-name"></h3>
+            <a href="#" id="user-email" class="user-email"></a>
+            </div>
+            <img alt="photo" id="user-image" class="user-image" width="150" height="150">
+        </li>
+    </template>
+    <script src="/js/index.js"></script>
+</body>
+</html>
